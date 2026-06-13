@@ -30,7 +30,7 @@ jobs:
               with:
                 host: ${{secrets.HOST}}
                 username: ${{secrets.USERNAME}}
-                key: ${{secrets.SSH_HEY}}
+                key: ${{secrets.SSH_KEY}}
                 script: |
                     cd /home/doekdiem/space-stream
 
