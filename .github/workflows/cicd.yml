@@ -34,7 +34,7 @@ jobs:
                 script: |
                     cd /home/doekdiem/space-stream
 
-                    source venv/bin/activate
+                    source .venv/bin/activate
 
                     pip install -r requirements.txt
 
